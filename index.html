@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--Gained additonal help for code from the resource https://www.w3schools.com/html/default.asp -->
+<html lang="en">
+  <head>
+<link rel="stylesheet" href="styles.css">
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      * {
+          box-sizing: border-box;
+      }
+
+      body {
+          font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Header for my about me */
+      header {
+          background-color: #8E44AD;
+          padding: 35px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+      }
+
+      /* Contains hyperlinks to other parts of my about me */
+      nav {
+          float: left;
+          width: 30%;
+          height: 300px;
+          background: #C39BD3;
+          padding: 20px;
+      }
+
+      /* Style the list inside the menu */
+      nav ul {
+          list-style-type: none;
+          padding: 0;
+      }
+
+      article {
+          float: left;
+          padding: 20px;
+          width: 70%;
+          background-color: #BB8FCE;
+          height: 300px;
+      }
+
+      /* Gets rid of over float of columns */
+      section::after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+
+      /* Adjustment for footer */
+      footer {
+          background-color: #8E44AD;
+          padding: 10px;
+          text-align: center;
+          color: black;
+      }
+
+      /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+      @media (max-width: 600px) {
+          nav, article {
+              width: 100%;
+              height: auto;
+          }
+      }
+    </style>
+  </head>
+  <body>
+
+    <h2>Connor's Digital Portfolio</h2>
+    <p class="sty">This portfolio is a compliation of my acheivements and my goals as an aspiring computer science student. My portfolio contains projects, information about me, and work that shows my skills.</p>
+    <p class="sty">To access other parts of the portfolio please refer to the table of contacts to guide you.</p>
+
+    <header>
+      <h2>Welcome!</h2>
+    </header>
+
+    <section>
+      <nav>
+	<h1>Table of Contents</h1>
+	<ul>
+	<input type="button" onclick="location.href='https://www.codermerlin.com/users/connor-church/Digital%20Portfolio/info.html';" value="Computer Science Background" />
+<p> </p>  
+	  <input type="button" onclick="location.href='https://www.codermerlin.com/users/connor-church/Digital%20Portfolio/directory.html';" value="Go to Class Directory" />
+<p> </p>
+	  <input type="button" onclick="location.href='https://www.codermerlin.com/users/connor-church/Digital%20Portfolio/isp.html';" value="Go to ISP Project" />
+	</ul>
+      </nav>
+
+      <article>
+	<h1>About Me:</h1>
+	<p class="sty">I am a CS 2 student at Allen Highschool aspiring to go down a comp sci carrer path. I love learning everything about computers amd I'm always growing as a student. I'm also a member of band, Math Honor Society, and NHS.  </p>
+	<h1>Why My Portfolio is Beneficial to Me:</h1>
+	<p class="sty">The goal of my digital portfolio is to repersent me as a comp sci student and a person. I take my academic learning very seriously and put a lot of effort in what I produce. I hope my portfolio can give you more insight about me and my skills. I put a lot of work and effort into this portfolio so I can show off my greatest abilites and becasue I hope whoever views this portfolio thinks so as well. My digital protfolio will also be beneficial after my highschool carrer because it will help with college and job applications and help to lay the foundation for my goals in life.</p>
+      </article>
+    </section>
+
+    <footer>
+      <p class="sty">(This portfolio is always getting updated)</p>
+    </footer>
+
+  </body>
+</html>
+ 
