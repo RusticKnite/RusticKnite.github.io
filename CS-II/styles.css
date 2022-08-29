@@ -1,0 +1,62 @@
+.segment {
+    background-color: darkslateblue;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 50px;
+}
+body {
+    background-color: mediumslateblue;
+}
+
+h1 {
+    color: indigo;
+    font-family: courier;
+    margin-left: 10px;
+}
+h2 {
+    color: white;
+    font-family: copperplate;
+    margin-left: 10px;
+}
+.sty {
+    color: white;
+    font-family: garamond;
+    margin-left: 10px;
+}
+.ef {
+    color: white;
+    font-family: garamond;
+    margin-left: 12px;
+    font-size: 20px; 
+}
+.button {
+    background-color: indigo;
+    color: white;
+    float: right;
+    border: 2px solid #3D2344; /* Green */
+}
+table, th, td {
+    background-color: paleturquoise; 
+    border:1px solid black;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+	'header header header header header header'
+	'menu menu main main right right'
+	'menu menu footer footer footer footer';
+    gap: 10px;
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 20px;
+}
+.isptxt {
+    font-size: 20px;
+}
