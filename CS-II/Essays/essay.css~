@@ -7,15 +7,20 @@ h1 {
 h2 {
     color: black;
     text-align: center;
-p {
+}
+    p {
     color: black;
     text-indent:20px;
     line-height: 2 ;
     font-family: "Times New Roman";
-    font-size: 20px;
+    font-size: 16px;
    }
 .header {
     background-color: lightblue;
     padding: 20px;
     text-align: center;
+}
+.hangingindent {
+    padding-left: 22px ;
+    text-indent: -22px ;
 }

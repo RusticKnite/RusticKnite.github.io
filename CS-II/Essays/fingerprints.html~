@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
 <!-- used to specify charcter set an utf-8 contains most well known charcters and symbols. -->
     <meta charset="utf-8">
 <!-- tells the browser the width of the page based on the computer screen -->
@@ -75,9 +75,9 @@
     </div>
 
     <div class="topnav">
-      <a href="index.html">Back</a>
+      <a href="../../index.html">Back</a>
       <a href="https://www.grc.com/fingerprints.htm#top">More Info</a>
-      <a href="flowchart.html">Flowchart</a>
+      <a href="../flowchart.html">Flowchart</a>
     </div>
 
     <div class="row">
