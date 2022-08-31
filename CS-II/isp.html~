@@ -14,7 +14,7 @@
   </head>
   <body>
     <h1>Isp Project</h1>
-<button class="button" onclick="document.location='index.html'">Back</button>
+<button class="button" onclick="document.location='../index.html'">Back</button>
     <p class="sty">ISP Project Table</p>
     <div class="grid-container">
       <div class="header">
@@ -36,8 +36,8 @@
 	
       </div>
       </div>
-    <img src="https://lh3.googleusercontent.com/pw/AL9nZEV-OjTRg81kqWeTVns-27_uG8oHck6ro3U-3Za3qEOywXXvYG-VQPo8h5iQlEyHkffEFTIJcXeICVwcEIJprw0nG_gxwx0IwyHI8JQGWkXBNtA0jaZMB8iM53-G_Bc8OFqaoQaDbG7E2DwhVOFwxwcS=w342-h312-no?authuser=0" alt="screenshot" width="450" height="500">
-    <img src="https://lh3.googleusercontent.com/pw/AL9nZEVo82x1vuesgIs9pacyXuFn7WxhvYwDWexYHuFhS1zv5o7NHhif6o7tN7c175p8PqBLRJeLNQPqr5SZNdVyjTUBIz-4Oq2d1hNjwNcdrM-6LJUUYWu5SM4nBie3omIbYnrG7MHjX45NKM7ZlvbwMvBD=w740-h415-no?authuser=0" alt="screenshot2" width="700" height="500">
-    <img src="https://lh3.googleusercontent.com/pw/AL9nZEVSC4tZQz_Y8-eTB6I3mZF_d61V2E2mkzuRE0oJGU1lRmpAp8ai_72e181Y1dZOSJcsJiMN4vOjRNt5rEhp8mFGHXRQWwez6CmnZnEKMSePwKxNT_410WOM9o4WR2ODMh1Qx5xoFJHRqKiu-5_j99Nk=w1101-h856-no?authuser=0" alt="ispscr" width="725" height="500">
+    <img src="unnamed.png" alt="screenshot" width="450" height="500">
+    <img src="CodeEx.png" width="700" height="500">
+    <img src="IspEx.png" alt="ispscr" width="725" height="500">
   </body>
   </html>
