@@ -9,6 +9,6 @@
 
     <h1>Flowchart</h1>
     <button class="button" onclick="document.location='Essays/fingerprints.html'">Back</button>
-<img src="Essays/diagram.png"flowchart" width="750" height="800">
+<img src="Essays/diagram.png" alt="flowchart" width="750" height="800">
   </body>
 </html>
