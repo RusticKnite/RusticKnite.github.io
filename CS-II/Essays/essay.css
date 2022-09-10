@@ -24,3 +24,15 @@ h2 {
     padding-left: 22px ;
     text-indent: -22px ;
 }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

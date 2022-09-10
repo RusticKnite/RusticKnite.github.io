@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="essay.css">
+    <link rel="stylesheet" href="../Essays/essay.css">
 <!-- used to specify charcter set an utf-8 contains most well known charcters and symbols. -->
     <meta charset="utf-8">
 <!-- tells the browser the width of the page based on the computer screen -->
@@ -49,7 +49,6 @@
       <a href="../isp.html">Isp</a>
       <a href="../info.html">Background</a>
       <a href="../Essays/Fingerprints.html">Fingerprints</a>
-      <a href="../Essays/AI Sentience.html">AI Sentience</a>
     </div>
     <p> Group: Connor, Will, Akshay, Josh 
       <a href="https://github.com/Bread21234/The-Fantastic-Furry-Four">Algorithim Github</a>
