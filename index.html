@@ -23,12 +23,15 @@
           font-size: 35px;
           color: white;
       }
-
+      section {
+	  display: -webkit-flex;
+	  display: flex;
+      }
       /* Contains hyperlinks to other parts of my about me */
       nav {
-          float: left;
-          width: 25%;
-          height: 450px;
+          -webkit-flex: 1;
+	  -ms-flex: 1;
+	  flex: 1;
           background: #C39BD3;
           padding: 20px;
       }
@@ -40,11 +43,11 @@
       }
 
       article {
-          float: left;
+	  -webkit-flex: 3;
+	  -ms-flex: 3;
+	  flex: 3;
           padding: 20px;
-          width: 75%;
           background-color: #BB8FCE;
-          height: 450px;
       }
 
       /* Gets rid of over float of columns */
@@ -64,10 +67,10 @@
 
       /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
       @media (max-width: 600px) {
-          article, nav {
-              width: 100%;
-              height: auto;
-          }
+          section {
+	      -webkit-flex-direction: column;
+	      flex-direction: column;
+	  }
       }
       ul {
 	  list-style-type: none;
