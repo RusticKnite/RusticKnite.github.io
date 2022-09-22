@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link rel="stylesheet" href="../styles.css">
 <!-- used to specify charcter set an utf-8 contains most well known charcters and symbols. -->
@@ -71,7 +71,23 @@
   <body>
 
     <div class="header">
-      <h1>Fingerprints</h1>
+      <p style="text-align:center"> Allen High School </p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p style="text-align:center">Fingerprints</p>
+      <p style="text-align:center">(Page Cover) An essay detaling the risk and fingerprints of the internet.</p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p style="text-align:center">Connor Church</p>
+      <p style="text-align:center">Computer Science II</p>
+      <p style="text-align:center">Ben-Yaakov</p>
+      <p style="text-align:center">09-02-22</p>
     </div>
 
     <div class="topnav">
@@ -85,15 +101,19 @@
 	<h2>Fingerprints</h2>
 	<p class="ef">
 	  Fingerprints. What does that mean to a person? Is it the thing that is unique to you, or is it someting that defines you as an indvidual? Or maybe it is the evidence that you leave behind that can help trace it back to you. People use the internet everyday watching viedos, buying clothing, gaming, studying, and so much more. But what most of the people don't stop to think about is if what they do on the internet is truly secure and there are no prying eyes. In this essay I'm going to adress the problem that is connection intercepton and how to identify it. 
-	  </p>
-	<p class="ef">Online safety is very important in today's society because we share more and more about us online. For that reason we have the right to privacy and should have a certain degree of protection. But how do we know that our connection is secure when on a website? This is done through HTTPS. The purpose of a secure HTTPS connection is to protect the privacy and security of the user using a website by encrypting the connection. This allows for a user to keep there privacy when browsing online and prevent personal information from being leaked to unwanted sources. HTTPS is great for personal users to keep there privacy, but certain groups want the ability to access there web history. An HTTPS Proxy Appliance is a device that serves as a point between the users and the internet and has full access to what the user access. Many intuitions such as Companies and School use these devices so no only that they can ensure there users are safe, but they also can examine and regulate there users web activity. However, this can be very invasive and potentially dangerous. There is a big debate about the ethics of this, but neverthless these devices help keep your connection safe. Making sure to stay safe on the internet and that you have a secure encrypted connection can protect you from cyber attacks such as MitM (Man in the Middle). According to Yasar (2022), "During MiTM attacks, cybercriminals insert themselves in the middle of data transactions or online communication," This allows them to gain access to personal information like logins and banking credentials. They can do this by spoofing your HTTPS connection and redirecting you to an unsecure connection which allows the attacker to monitor and steal your information. This provides a real risk because many people that are less knowledgeable about computers are very susceptible to these cyber attacks. This can lead to many cases of identity theft and stolen accounts. This is why it is very important to make sure that your connection is secure and private.</p>
-      <p class="ef">
+	</p>
+	<h3>Online Safety:</h3>
+	<p class="ef">Online safety is very important in today's society because we share more and more about us online. For that reason we have the right to privacy and should have a certain degree of protection. But how do we know that our connection is secure when on a website? This is done through HTTPS. The purpose of a secure HTTPS connection is to protect the privacy and security of the user using a website by encrypting the connection. This allows for a user to keep there privacy when browsing online and prevent personal information from being leaked to unwanted sources. HTTPS is great for personal users to keep there privacy, but certain groups want the ability to access there web history. An HTTPS Proxy Appliance is a device that serves as a point between the users and the internet and has full access to what the user access. Many intuitions such as Companies and School use these devices so no only that they can ensure there users are safe, but they also can examine and regulate there users web activity. However, this can be very invasive and potentially dangerous. There is a big debate about the ethics of this, but neverthless these devices help keep your connection safe. Making sure to stay safe on the internet and that you have a secure encrypted connection can protect you from cyber attacks such as MitM (Man in the Middle). According to Yasar (2022), "During MiTM attacks, cybercriminals insert themselves in the middle of data transactions or online communication," This allows them to gain access to personal information like logins and banking credentials. They can do this by spoofing your HTTPS connection and redirecting you to an unsecure connection which allows the attacker to monitor and steal your information. This provides a real risk because many people that are less knowledgeable about computers are very susceptible to these cyber attacks. This can lead to many cases of identity theft and stolen accounts. This is why it is very important to make sure that your connection is secure and private.
+	</p>
+<h3>Fingerprint Hashing:</h3>
+	<p class="ef">
 	Due to attacks like this and a rising demand for online privacy and security a new solution was derived. The basic explanation is "A third party who we trust has assured us that our encrypted traffic is going only to the website we intend" (Fingerprints 2022), basically meaning a trusted person has approved the connection and you are secured. This person is called a CA (Certificate Authorities) they have to be credible and put there reputation on the line when approving a site which furthers how credible CA's are. Which now brings us back to HTTP proxy or also known as SSL proxy. For security to be breached on a proxy all it takes is for an additional CA to be added that is fraudulent. The proxy can create a fake certificate for a site and impersonate the website. Unfortunately, there is no way to prevent SSL interception. However, if you feel that you have been intercepted there is a way to detect that. Hashes are algorithms that can process every bit of information from the contents of the certificate. Even if there is only a very tiny difference in the certificate the fingerprint will be entirely different. Fingerprints generates a hash and you can compare the official hash of the website and the hash you generated and compare to see if you are truly on the secured website. The four main characteristics that make a has good is the has value is fully determined by the data being hased, uses all input data, the hash function distributes data across the entire set of possible of possible has values, the function of the hash generates very different values for similar strings. (Hash Tables 2021) All of this allows you to detect SSl interception. It takes a lot of work and dedication to make these systems all for us to be more secure online. However, smaller sites usally only have one certificate so it is easier for users to check there connection, but bigger websites and comapnies use multiple certifactes due to size and security, meaning you could get a false match with a totally different fingerprint but it's just because you are matching with the wrong certificate. This is called a false-positive. Using browsers such as Chrome and Firefox have EV certificates that display an icon if the certifcate is authentic. You can't have a false-negative beacuse the fingerprint would match if the certificate is there. It is important for us to know things like this because soon it won't be an excuse to not things about computers and the internet. If we don't fufill our duites of protecting ourselves on the internet then we will dig ourseleves in a deeper hole.
-      </p>
+	</p>
+	<h3>Conclusion:</h3>
 	<p class="ef"> The internet has open up many oppurtunites for our society and the key to our future, but it can also lead to our downfall if we aren't careful. One of those ways to prevent that is practicing good online safety and security. Making sure you connection is secure and making sure you aren't making yourself exposed to harmful malware. However, cyber attacks aren't the only issue when it comes to this matter. As I said before, schools, buisnesses, and governments monitor there users web history and track everything they do online. In my oppinion I believe instutions like these should only be able to block and screen certain priveleges online that could put them in danger or cause an unwanted liability. I don't agree with the complete breach of privacy by monitoring everything a person does online and collecting data on there users. Every person has a right to there own privacy and it is a breach to one's self right. Now I ask you, are you truly secure?
 	</p>
-	<h2>Work Cited</h2>
-	<p class="ef">
+	<h2>References</h2>
+	<p class="rt">
 
 	  Gibson Research Corporation. (2022). Fingerprints. GRC. Retrieved August 24, 2022, from https://www.grc.com/fingerprints.htm#top
 	  <br>

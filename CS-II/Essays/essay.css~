@@ -8,6 +8,9 @@ h2 {
     color: black;
     text-align: center;
 }
+h3 {
+    text-align: center;
+}
     p {
     color: black;
     text-indent:20px;
@@ -23,4 +26,16 @@ h2 {
 .hangingindent {
     padding-left: 22px ;
     text-indent: -22px ;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }

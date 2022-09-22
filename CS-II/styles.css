@@ -20,6 +20,17 @@ h2 {
     margin-left: 10px;
     text-align: center;
 }
+h3 {
+    color: white;
+    font-family: copperplate;
+    margin-left: 10px;
+    text-align: left;
+}
+h4 {
+    color: indigo;
+    font-family: copperplate;
+    margin-left: 10px;
+}
 .sty {
     color: white;
     font-family: garamond;

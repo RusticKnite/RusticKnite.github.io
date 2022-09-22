@@ -18,6 +18,18 @@ h2 {
     color: white;
     font-family: copperplate;
     margin-left: 10px;
+    text-align: center;
+}
+h3 {
+    color: white;
+    font-family: copperplate;
+    margin-left: 10px;
+    text-align: left;
+}
+h4 {
+    color: indigo;
+    font-family: copperplate;
+    margin-left: 10px;
 }
 .sty {
     color: white;
@@ -30,6 +42,12 @@ h2 {
     margin-left: 12px;
     font-size: 18px;
     text-indent: 20px;
+}
+.rt {
+    color: white;
+    font-family: garamond;
+    margin-left: 12px;
+    font-size: 18px;
 }
 .button {
     background-color: indigo;
