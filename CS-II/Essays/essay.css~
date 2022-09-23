@@ -9,7 +9,7 @@ h2 {
     text-align: center;
 }
 h3 {
-    text-align: center;
+    text-align: left;
 }
     p {
     color: black;
@@ -17,8 +17,9 @@ h3 {
     line-height: 2 ;
     font-family: "Times New Roman";
     font-size: 16px;
-   }
-.header {
+    }
+    .header {
+	line-height: 1;
     background-color: lightblue;
     padding: 20px;
     text-align: center;
@@ -38,4 +39,8 @@ h3 {
     content: "";
     clear: both;
     display: table;
+}
+.hangingindent {
+    padding-left: 22px ;
+    text-indent: -22px ;
 }

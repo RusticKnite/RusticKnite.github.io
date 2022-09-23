@@ -31,24 +31,38 @@ h4 {
     font-family: copperplate;
     margin-left: 10px;
 }
+h5 {
+    font-size: 28px;
+}
 .sty {
     color: white;
     font-family: garamond;
     margin-left: 10px;
-    height: 0 auto;
+    height: auto;
+}
+.sti {
+    color: white;
+    font-family: garamond;
+    margin-left: 10px;
+    height: auto;
+    text-indent: 20px;
 }
 .ef {
     color: white;
     font-family: garamond;
     margin-left: 12px;
     font-size: 18px;
-    text-indent: 20px;
+    text-indent: 50px;
+line-height: 2 ;
 }
 .rt {
     color: white;
     font-family: garamond;
     margin-left: 12px;
     font-size: 18px;
+    padding-left: 22px ;
+    text-indent: -22px ;
+    line-height: 2 ;
 }
 .button {
     background-color: indigo;

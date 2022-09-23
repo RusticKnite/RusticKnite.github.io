@@ -2,12 +2,17 @@
 <html lang="en">
   <head>
 <link rel="stylesheet" href="styles.css">
-<meta charset="utf-8">
-  <title>Class Directory</title>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+      margin: 45px;
+  }
+  </style>
+<title>Class Directory</title>
   </head>
 <body>
     <h1>Class Directory</h1>    
-<button class="button" onclick="document.location='index.html'">Back</button>
+<button class="button" onclick="document.location='../index.html'">Back</button>
     <p class="sty">Class List</p>
 <table style="width:100%">
       <tr>
@@ -16,7 +21,7 @@
 	<th>In Progress</th>
       </tr>
       <tr style="height:50px">
-	<td><a href="https://www.codermerlin.com/users/connor-church/Digital%20Portfolio/isp.html">Computer Science I</a></td>
+	<td><a href="isp.html">Computer Science I</a></td>
 	<td style="text-align:center">X</td>
 	<td></td>
       </tr>

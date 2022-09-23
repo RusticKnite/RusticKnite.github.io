@@ -7,7 +7,7 @@
 </head>
   <body>
 <h1>Computer Science Background</h1>
-<button class="button" onclick="document.location='..index.html'">Back</button>
+<button class="button" onclick="document.location='../index.html'">Back</button>
 <p class="sty"> Here is an overivew of my experience and knowledge from Computer Science I.</p>
 <div class="segment">
 <h2>What I Learned Last Year</h2>
