@@ -1,0 +1,77 @@
+<html lang="en">
+  <head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="projects.css">
+  </head>
+  <body class="woo">
+
+    <div class="header">
+      <h1>ISP Proposal</h1>
+    </div>
+
+    <div class="topnav">
+      <a href="../../../index.html">Home</a>
+      <a href="../Optimal Sort.html">Optimal Sort</a>
+    </div>
+    <div class="row">
+      <div class="leftcolumn">
+	<div class="card">
+	  <h2>Problem & Solution</h2>
+	  <h5>Identifies a problem and a solution there is a market for.</h5>
+	  <p>Some text..</p>
+	  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+	</div>
+	<div class="card">
+	  <h2>Team & Key Roles</h2>
+	  <h5>Key positions and tasks needed in order to achieve our desire outcome with the project.</h5>
+	  <p>Some text..</p>
+	  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+	</div>
+	<div class="card">
+	  <h2>Mliestones</h2>
+	  <h5>Major achievements of project and intended goals.</h5>
+	  <p>Some text..</p>
+	  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+	</div>
+	<div class="card">
+	<h2>GANTT Chart</h2>
+	  <h5>Optimal timeline for the project.</h5>
+	  <p>Some text..</p>
+	  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+	</div>
+      </div>
+      <div class="rightcolumn">
+	<div class="card">
+	  <h3>Identity</h2>
+	  <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+	</div>
+	<div class="card">
+	  <h3>Target Market</h3>
+	</div>
+	<div class="card">
+	  <h3>Competition</h3>
+	  <p>Some text..</p>
+	</div>
+	<div class="card">
+	  <h3>Marketing Activities</h3>
+	  <p>Some text..</p>
+	  </div>
+	<div class="card">
+	  <h3>Revenue Streams</h3>
+	  <p>Some text..</p>
+	</div>
+	<div class="card">
+	  <h3>Expenses</h3>
+	  <p>Some text..</p>
+	</div>
+<div class="card">
+	  <h3>Improvements</h3>
+	  <p>Some text..</p>
+	</div>
+      </div>
+    </div>
+    
+  </body>
+  </html>

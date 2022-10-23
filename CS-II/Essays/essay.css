@@ -53,3 +53,8 @@ color: black;
     padding-left: 22px ;
     text-indent: -22px ;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
