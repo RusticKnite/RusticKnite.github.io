@@ -5,6 +5,13 @@
     margin: 20px;
     padding: 50px;
 }
+.segmentAlt {
+    background-color: indianred;
+    color: white;
+    border: 2px solid maroon;
+    margin: 10px;
+    padding: 20px;
+}
 body {
     background-color: mediumslateblue;
 }
@@ -33,6 +40,9 @@ h4 {
 }
 h5 {
     font-size: 28px;
+}
+.altcolor {
+    color: firebrick;
 }
 .sty {
     color: white;
@@ -68,7 +78,13 @@ line-height: 2 ;
     background-color: indigo;
     color: white;
     float: right;
-    border: 2px solid #3D2344; /* Green */
+    border: 2px solid #3D2344;
+}
+.buttonAlt {
+    background-color: indianred;
+    color: white;
+    float: right;
+    border: 2px solid maroon;
 }
 table, th, td {
     background-color: paleturquoise; 
