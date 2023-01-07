@@ -50,6 +50,13 @@ h5 {
     margin-left: 10px;
     height: auto;
 }
+.stx {
+    color: white;
+    font-size: 20px;
+    font-family: garamond;
+    margin-left: 10px;
+    height: auto;
+}
 .sti {
     color: white;
     font-family: garamond;
@@ -84,6 +91,11 @@ line-height: 2 ;
     background-color: indianred;
     color: white;
     float: right;
+    border: 2px solid maroon;
+}
+.buttonAlx {
+    background-color: indianred;
+    color: white;
     border: 2px solid maroon;
 }
 table, th, td {
