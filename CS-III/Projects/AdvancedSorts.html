@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <title>Advanced Sorts</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../CS-II/Projects/Business%20Plan/projects.css">
+  </head>
+  <body class="woo" style="width: auto">
+
+    <div class="header">
+      <h1>Advanced Sorts</h1>
+    </div>
+
+    <div class="topnav">
+      <a href="../../index.html">Home</a>
+    </div>
+    <div class="row">
+	<div class="card">
+	  <h2> Merge Sort: </h2>
+	  <p class="font"> Merge Sort makes use of recursion in its sorting method as it splits resources through the array. The sorting algorithm starts by initially splitting the array into two halves. Each one of these halves is split until each subarray can no longer be divided. When they are in this state, they are in their simplest form and are therefore sorted. From here, the sorted subarrays are merged to form bigger sorted subarrays. They continue to merge into bigger, sorted subarrays until the full array is merged and sorted. This method is all about sorting at the simplest point and then recursing through to sort the entire array. Merge sort is great for larger arrays for this very reason: no matter the size, it sorts at the simplest point and recurs back through. The time complexity of this sort is O(N log(N)). When it comes to average, best, and worst time complexity, it is all the same because no matter what, the merge sort has to split the array into halves and merge them back together. The space complexity for merge sort is O(n). This is a rather large amount of space; this is because merge sort makes copies of the splits when sorting. Making these copies will take up more space; hence, there is a higher spatial complexity.
+</p>
+	    
+	</div>
+	<div class="card">
+	  <h2> QuickSort: </h2>
+	  <p class="font"> Quicksort is also a sorting algorithm that makes use of recursion, but the method by which it sorts is different from Merge Sort. In Quicksort, it makes use of what is called a "pivot". A pivot is a value that the array will be arranged around by putting all values less than the pivot to the left and all the values greater than the pivot to the right. When creating this algorithm, you could make any point in the array the pivot, but most commonly, the last value of the array is used as the pivot. So to start quickly, a pivot is determined, and then the array is arranged so that all values less than the pivot are to the left and all values greater than the pivot are to the right. From here, the left and right are taken into subarrays, and a pivot is decided in each subarray. From here, the same process is repeated, where the values are rearranged until all that is less than the pivot is on the left and all that is greater than the pivot is on the right. This process of dividing and reordering will continue until, finally, the subarray contains only one element. From here, the elements are recursively combined as the pivots are sorted back into their sorted spot in the sorted array. The sort finally completes once all the elements are combined back together in their sorted order. Quicksort shines in the efficiency department, as it does great time- and space-wise. The average time complexity of Quicksort is O(N log(N)), while its worst-case scenario time complexity is O(n2), yet Quicksort is still faster than many sorts because the worst-case scenario can be manipulated by changing the pivot. By manipulating the pivot, it makes the chance of the worst-case scenario happening relatively low. The space complexity is O(n*logn), meaning Quicksort is great when there is limited space. Even though some memory space is taken up to make recursive calls, since it is an in-place algorithm, it doesn’t require any extra memory to manipulate the array.
+</p>
+	    
+	</div>
+	<div class="card">
+	  <h2> Heap Sort: </h2>
+	  <p class="font"> The process of heap sorting makes use of two concepts: a binary tree and max heap in its sorting method. So to start, the array is reorganized into a binary tree by making the first value in the array the root, making the next two values in the array children of the root, and then continuing the binary tree pattern until all elements are accounted for. The next step is to try to convert it into a Max heap. Max heap is essentially the process of making sure that the children of the root parent node are less or equal to those of the parent; if not, then the values will swap. Once all swaps are made and the root of the tree is the largest value, that value is swapped with a value at the bottom of the array, essentially putting in the last index of the array. The value that was swapped will return to its original spot by converting to the max heap. This would end up putting the second largest value in the array as the root, and the process will continue to loop through until the entire array is sorted. To simplify, heap sort takes an array and formats it into a binary tree; from there, it converts it to max heap; Then the root is swapped with the bottom of the heap, which essentially places it in the last index of the array; the sort will continue the max heap and swapping process until the whole array is sorted. The time complexity for heap sort is  O(n log n), and while it isn’t one of the fastest sorting algorithms, its simplicity and effectiveness make up for that. The space complexity of heap sort is 1. This is because it uses no extra data structure in the algorithm since it is all in place. This makes heap sorting great when memory space is limited.
+	  </p>
+	  </div>
+	<div class="card">
+	  <h2> Cross Comparison of Sort Time and Space Complexities: </h2>
+	  <p class="font"> Although they have the same time complexity, O(N log(N),  Quicksort overall outperforms merge sort and heap sort due to its ability to manipulate the pivot, which could allow it to be more time efficient. It is also the best choice when it comes to larger datasets, as it can maintain relatively high efficiency. When it comes to space, heapsort is the best option, with a time complexity of 1, as it doesn’t make use of any external data structure and the whole sorting system is internal. While the other sorts take up more memory space for their sorting method. However, heap sort is way slower compared to both merge and quicksort. Merge sort falls in a category between the two where it doesn’t necessarily exceed one but has a consistent balance between the two. Overall, these sorts of things have their advantages and disadvantages, but each has a unique and fascinating process behind it that is worth learning more about.
+
+</p>
+	    
+	</div>    
+	</div>
+	   </body>
+  </html>

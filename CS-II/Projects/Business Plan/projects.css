@@ -57,3 +57,9 @@ body {
     width: 1800px;
     margin: auto;
 }
+.font {
+    text-indent: 50px;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 1.8;
+}
