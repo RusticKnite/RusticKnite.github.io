@@ -54,7 +54,8 @@ color: black;
     text-indent: -22px ;
 }
 .center {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
 }
